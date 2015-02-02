@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NexMouse</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    //StartScreen Activity            <string name="bliviclabs">blivic labs</string>
+    //Home Activity            <string name="hint">HInt</string>
+    <string name="Enter">Enter IP</string>
+    <string name="Connect">Connect</string>
+    <string name="closebut">Close connection</string>
+    <string name="xval">X Value</string>
+    <string name="yval">Y Value</string>
+    <string name="title_activity_trial">Trial</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_test">Test</string>
+
+</resources>

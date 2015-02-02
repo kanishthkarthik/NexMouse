@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:id="@+id/activity_test"
+    tools:context="com.blivic.nexmouse.Test">
+
+    <RelativeLayout
+        android:id="@+id/TopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        >
+
+        <Button android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_height="wrap_content"
+            android:text="Send"/>
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_toEndOf="@+id/send"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/send"
+            android:text="@string/hello_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        android:layout_below="@+id/TopLayout"
+        >
+
+        <Button
+            android:id="@+id/button_lc"
+            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Left Click"
+            />
+        <Button
+            android:id="@+id/button_rc"
+            android:layout_height="match_parent"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="Right click"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
